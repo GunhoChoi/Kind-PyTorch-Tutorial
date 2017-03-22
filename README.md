@@ -1,4 +1,7 @@
-# Kind_PyTorch
+<p align="center">
+<h1 Kind_PyTorch />
+<img src="./logo/PyTorch.jpg" width="60%">
+</p>
 
 Table of contents
 --------------------------
