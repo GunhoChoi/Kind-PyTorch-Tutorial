@@ -1,6 +1,6 @@
 # Kind_PyTorch
 
-## contents
+Table of contents
 --------------------------
 - Basic Math Functions
 - Basic Matrix Functions
