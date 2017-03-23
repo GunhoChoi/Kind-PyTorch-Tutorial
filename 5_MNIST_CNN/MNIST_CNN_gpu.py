@@ -100,8 +100,10 @@ for i in range(epoch):
 # Test with test data
 # In order test, we need to change model mode to .eval()
 # and get the highest score label for accuracy
+# Change model to 'eval' mode (BN uses moving mean/var)
+# label also has to be on GPU so .cuda() required -> this took an hour for me to figure out
 
-cnn.eval()  # Change model to 'eval' mode (BN uses moving mean/var).
+cnn.eval()  
 correct= 0
 total = 0
 
