@@ -15,3 +15,4 @@ Table of contents
 - Variable and Automatic Gradient Calculation
 - Linear Regression Example (Loss & Optimizer) 
 - MNIST CNN (cpu & gpu)
+- Input Pipeline & Pretrained Model
