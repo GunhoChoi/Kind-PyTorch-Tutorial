@@ -99,8 +99,9 @@ for i in range(epoch):
 # Test with test data
 # In order test, we need to change model mode to .eval()
 # and get the highest score label for accuracy
+# Change model to 'eval' mode (BN uses moving mean/var)
 
-cnn.eval()  # Change model to 'eval' mode (BN uses moving mean/var).
+cnn.eval()  
 correct= 0
 total = 0
 
@@ -111,5 +112,5 @@ for image, label in test_loader:
     total += label.size(0)
     correct += (predicted == label).sum()
 
-print('Test Accuracy of the model on the 10000 test images: %f %%' % (100 * correct / total))
+print('Test Accuracy: %f %%' % (100 * correct / total))
   
