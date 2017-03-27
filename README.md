@@ -16,3 +16,4 @@ Table of contents
 - Linear Regression Example (Loss & Optimizer) 
 - MNIST CNN (cpu & gpu)
 - Input Pipeline & Pretrained Model
+- Autoencoder & Model Save
