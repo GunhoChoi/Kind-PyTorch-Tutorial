@@ -17,3 +17,4 @@ Table of contents
 - MNIST CNN (cpu & gpu)
 - Input Pipeline & Pretrained Model
 - Autoencoder & Model Save
+- Simple Character RNN
