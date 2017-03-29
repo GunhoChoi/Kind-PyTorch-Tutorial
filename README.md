@@ -18,3 +18,4 @@ Table of contents
 - Input Pipeline & Pretrained Model
 - Autoencoder & Model Save
 - Simple Character RNN
+- Vanilla Generative Adversarial Networks with MNIST
