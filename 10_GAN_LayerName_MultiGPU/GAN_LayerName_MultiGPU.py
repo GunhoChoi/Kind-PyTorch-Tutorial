@@ -101,31 +101,6 @@ zeros_label = Variable(torch.zeros(batch_size,1)).cuda()
 gen_params = generator.state_dict().keys()
 dis_params = discriminator.state_dict().keys()
 
-'''
-for i in gen_params:
-	if "conv" and "weight" in i:
-		init.normal(generator.state_dict()[i],std=0.02)
-		print("conv_weight",i)
-	elif "bn" in i:
-		if "weight" in i:
-			init.normal(generator.state_dict()[i],mean=1,std=0.02)
-			print("bn_weight",i)
-		elif "bias" in i:
-			generator.state_dict()[i].zero_()
-			print("bn_biass",i)
-
-for i in dis_params:
-	if "conv" and "weight" in i:
-		init.normal(discriminator.state_dict()[i],std=0.02)
-		print("conv_weight",i)
-	elif "bn" in i:
-		if "weight" in i:
-			init.normal(discriminator.state_dict()[i],mean=1,std=0.02)
-			print("bn_weight",i)
-		elif "bias" in i:
-			discriminator.state_dict()[i].zero_()
-			print("bn_biass",i)
-'''
 # model restore
 
 try:
