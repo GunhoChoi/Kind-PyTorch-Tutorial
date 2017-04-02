@@ -10,12 +10,13 @@ Requirements
 
 Table of contents
 --------------------------
-- Basic Math Functions
-- Basic Matrix Functions
-- Variable and Automatic Gradient Calculation
-- Linear Regression Example (Loss & Optimizer) 
-- MNIST CNN (cpu & gpu)
-- Input Pipeline & Pretrained Model
-- Autoencoder & Model Save
-- Simple Character RNN
-- Vanilla GAN (Layer naming & Multi gpu)
+- [Basic Math Functions](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/01_Math_Basics/Math_Basics.ipynb)
+- [Basic Matrix Functions](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/02_Matrix_Basics/Matrix_Basics.ipynb)
+- [Variable and Automatic Gradient Calculation](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/03_Variable_Autograd/Variable_Autograd.ipynb)
+- [Linear Regression Example (Loss & Optimizer)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/04_Linear_Regression/Linear_Regression.ipynb)
+- [MNIST CNN (cpu & gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/05_MNIST_CNN/MNIST_CNN.ipynb)
+- [Input Pipeline & Pretrained Model](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/06_Input_Pipeline_Pretrained/Input_Pipeline_Pretrained.ipynb)
+- [Autoencoder & Model Save](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/07_Autoencoder_Model_Save/Autoencoder_Model_Save.ipynb)
+- [Denoising Autoencoder](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/08_Denoising_Autoencoder)
+- [Simple Character RNN](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/09_Simple_Char_RNN/Simple_Char_RNN.ipynb)
+- [Vanilla GAN (Layer naming & Multi gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/10_GAN_LayerName_MultiGPU)
