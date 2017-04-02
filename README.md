@@ -16,7 +16,7 @@ Table of contents
 - [Linear Regression Example (Loss & Optimizer)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/04_Linear_Regression/Linear_Regression.ipynb)
 - [MNIST CNN (cpu & gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/05_MNIST_CNN/MNIST_CNN.ipynb)
 - [Input Pipeline & Pretrained Model](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/06_Input_Pipeline_Pretrained/Input_Pipeline_Pretrained.ipynb)
-- [Autoencoder & Model Save](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/07_Autoencoder_Model_Save/Autoencoder_Model_Save.ipynb)
+- [Autoencoder & Model Save](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/07_Autoencoder_Model_Save)
 - [Denoising Autoencoder](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/08_Denoising_Autoencoder)
 - [Simple Character RNN](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/09_Simple_Char_RNN/Simple_Char_RNN.ipynb)
 - [Vanilla GAN (Layer naming & Multi gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/10_GAN_LayerName_MultiGPU)
