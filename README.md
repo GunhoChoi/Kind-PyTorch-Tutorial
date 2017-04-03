@@ -20,4 +20,4 @@ Table of contents
 - [Denoising Autoencoder](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/08_Denoising_Autoencoder)
 - [Simple Character RNN](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/09_Simple_Char_RNN/Simple_Char_RNN.ipynb)
 - [Vanilla GAN (Layer naming & Multi gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/10_GAN_LayerName_MultiGPU)
-- [InfoGAN using Least Squares loss](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/11_InfoGAN_Least_Squares_Loss
+- [InfoGAN using Least Squares loss](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/11_InfoGAN_Least_Squares_Loss)
