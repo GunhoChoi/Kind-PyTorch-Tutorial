@@ -6,6 +6,7 @@ Requirements
 -------------------------
 - python 3.5.2
 - Pytorch (http://pytorch.org/)
+- Numpy
 - matplotlib
 
 Table of contents
