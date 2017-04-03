@@ -33,7 +33,7 @@ def int_to_onehot(z_label):
 class Generator(nn.Module):
 	def __init__(self):
 		super(Generator,self).__init__()
-		self.layer1 = nn.Linear(110,7*7*256)					# [batch,110] -> [batch,7*7*256]		
+		self.layer1 = nn.Linear(110,7*7*256)				# [batch,110] -> [batch,7*7*256]		
 		self.layer2 = nn.Sequential(OrderedDict([
 				('conv1', nn.ConvTranspose2d(256,128,3,2,1,1)),	# [batch,256,7,7] -> [batch,128,14,14]
 				('relu1', nn.LeakyReLU()),
@@ -43,10 +43,10 @@ class Generator(nn.Module):
 				('bn2', nn.BatchNorm2d(64))
 			]))
 		self.layer3 = nn.Sequential(OrderedDict([
-				('conv3',nn.ConvTranspose2d(64,16,3,1,1)),		# [batch,64,14,14] -> [batch,16,14,14]
+				('conv3',nn.ConvTranspose2d(64,16,3,1,1)),	# [batch,64,14,14] -> [batch,16,14,14]
 				('relu3',nn.LeakyReLU()),
 				('bn3',nn.BatchNorm2d(16)),
-				('conv4',nn.ConvTranspose2d(16,1,3,2,1,1)),		# [batch,16,14,14] -> [batch,1,28,28]
+				('conv4',nn.ConvTranspose2d(16,1,3,2,1,1)),	# [batch,16,14,14] -> [batch,1,28,28]
 				('relu4',nn.LeakyReLU())
 			]))
 
@@ -68,13 +68,13 @@ class Discriminator(nn.Module):
 				('conv2',nn.Conv2d(16,32,3,padding=1)),  # [batch,16,28,28] -> [batch,32,28,28]
 				('relu2',nn.LeakyReLU()),
 				('bn2',nn.BatchNorm2d(32)),
-				('max1',nn.MaxPool2d(2,2))   			 # [batch,32,28,28] -> [batch,32,14,14]
+				('max1',nn.MaxPool2d(2,2))   		 # [batch,32,28,28] -> [batch,32,14,14]
 			]))
 		self.layer2 = nn.Sequential(OrderedDict([
 				('conv3',nn.Conv2d(32,64,3,padding=1)),  # [batch,32,14,14] -> [batch,64,14,14] 
 				('relu3',nn.LeakyReLU()),
 				('bn3',nn.BatchNorm2d(64)),	
-				('max2',nn.MaxPool2d(2,2)),				 # [batch,64,14,14] -> [batch,64,7,7]
+				('max2',nn.MaxPool2d(2,2)),		 # [batch,64,14,14] -> [batch,64,7,7]
 				('conv4',nn.Conv2d(64,128,3,padding=1)), # [batch,64,7,7] -> [batch,128,7,7]
 				('relu4',nn.LeakyReLU())
 			]))
