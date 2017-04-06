@@ -22,4 +22,4 @@ Table of contents
 - [Simple Character RNN](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/09_Simple_Char_RNN/Simple_Char_RNN.ipynb)
 - [Vanilla GAN (Layer naming & Multi gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/10_GAN_LayerName_MultiGPU)
 - [InfoGAN using Least Squares loss](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/11_InfoGAN_Least_Squares_Loss)
-- [Image Style Transfer using ResNet50]()
+- [Image Style Transfer using ResNet50](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/12_StyleTransfer_ResNet)
