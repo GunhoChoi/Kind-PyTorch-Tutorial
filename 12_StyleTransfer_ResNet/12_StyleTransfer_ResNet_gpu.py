@@ -49,7 +49,6 @@ class Resnet(nn.Module):
 		out_2 = self.layer2(out_1)
 		out_3 = self.layer3(out_2)
 		out_4 = self.layer4(out_3)
-		
 		return out_0, out_1, out_2, out_3, out_4	
 
 # read & preprocess image
@@ -133,7 +132,6 @@ optimizer = optim.LBFGS([generated])
 
 iteration = [0]
 while iteration[0] < epoch:
-
 	def closure():
 		optimizer.zero_grad()
 		out = resnet(generated)
@@ -146,7 +144,6 @@ while iteration[0] < epoch:
 			print(total_loss)
 			v_utils.save_image(image_postprocess(generated.data),"./gen_{}.png".format(iteration[0]))
 		iteration[0] += 1
-
-		return total_loss
+		return total_loss	
 	
 	optimizer.step(closure)
