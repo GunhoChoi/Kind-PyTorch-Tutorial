@@ -68,10 +68,8 @@ def image_preprocess(img_dir):
 # image post process
 
 def image_postprocess(tensor):
-	transform = transforms.Compose([
-					transforms.Normalize(mean=[-0.40760392, -0.45795686, -0.48501961], 
-                                         std=[1,1,1]),
-				])
+	transform = transforms.Normalize(mean=[-0.40760392, -0.45795686, -0.48501961], 
+                                         std=[1,1,1])
 	img = transform(tensor.clone())
 	img[img>1] = 1    
 	img[img<0] = 0
