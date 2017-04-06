@@ -20,6 +20,7 @@ from PIL import Image
 content_dir = "./image/content/Neckarfront_origin.jpg"
 style_dir = "./image/style/monet.jpg"
 
+# if gpu memory is not enough, change image size to smaller one
 content_layer_num = 4
 image_size = 512
 epoch = 10000
