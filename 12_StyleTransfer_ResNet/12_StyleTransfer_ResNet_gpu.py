@@ -132,6 +132,7 @@ optimizer = optim.LBFGS([generated])
 
 iteration = [0]
 while iteration[0] < epoch:
+	
 	def closure():
 		optimizer.zero_grad()
 		out = resnet(generated)
