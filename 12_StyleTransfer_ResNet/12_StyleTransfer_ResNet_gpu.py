@@ -1,7 +1,8 @@
-# https://discuss.pytorch.org/t/how-to-extract-features-of-an-image-from-a-trained-model/119/3
-# https://github.com/leongatys/PytorchNeuralStyleTransfer
 # Image Style Transfer using convolutinal neural networks
 # code by GunhoChoi
+# Refernced documents below
+# https://discuss.pytorch.org/t/how-to-extract-features-of-an-image-from-a-trained-model/119/3
+# https://github.com/leongatys/PytorchNeuralStyleTransfer
 
 import torch
 import torch.nn as nn
