@@ -1,4 +1,4 @@
-# FusionNet_Pytorch
+# Semantic Segmentation
 
 ## Model
 
