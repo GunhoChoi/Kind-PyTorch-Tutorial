@@ -15,7 +15,7 @@
 
 ~~~
 git clone https://github.com/GunhoChoi/Kind_PyTorch_Tutorial.git
-cd /Kind_PyTorch_Tutorial/13_Semantic_Segmentation
+cd Kind_PyTorch_Tutorial/13_Semantic_Segmentation/
 ~~~
 
 ## Download Map data
