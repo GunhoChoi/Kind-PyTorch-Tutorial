@@ -32,6 +32,14 @@ mkdir model
 mkdir result
 ~~~
 
+## Arguments
+
+~~~
+parser.add_argument("--network",type=str,default="fusionnet",help="choose between fusionnet & unet")
+parser.add_argument("--batch_size",type=int,default=1,help="batch size")
+parser.add_argument("--num_gpu",type=int,default=1,help="number of gpus")
+~~~
+
 ## Train Model
 ~~~
 python3 main.py --network unet --batch_size 1 --num_gpu 1
