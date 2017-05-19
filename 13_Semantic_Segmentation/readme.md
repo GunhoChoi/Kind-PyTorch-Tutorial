@@ -28,8 +28,7 @@ tar -xzvf maps.tar.gz
 ## Make required directory
 
 ~~~
-mkdir model
-mkdir result
+mkdir model result
 ~~~
 
 ## Arguments
