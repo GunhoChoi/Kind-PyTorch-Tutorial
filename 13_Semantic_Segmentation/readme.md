@@ -1,4 +1,4 @@
-# FusionNet_Pytorch
+# Semantic Segmentation
 
 ## Model
 
@@ -15,7 +15,7 @@
 
 ~~~
 git clone https://github.com/GunhoChoi/Kind_PyTorch_Tutorial.git
-cd /Kind_PyTorch_Tutorial/13_Semantic_Segmentation
+cd Kind_PyTorch_Tutorial/13_Semantic_Segmentation/
 ~~~
 
 ## Download Map data
@@ -28,8 +28,15 @@ tar -xzvf maps.tar.gz
 ## Make required directory
 
 ~~~
-mkdir model
-mkdir result
+mkdir model result
+~~~
+
+## Arguments
+
+~~~
+parser.add_argument("--network",type=str,default="fusionnet",help="choose between fusionnet & unet")
+parser.add_argument("--batch_size",type=int,default=1,help="batch size")
+parser.add_argument("--num_gpu",type=int,default=1,help="number of gpus")
 ~~~
 
 ## Train Model

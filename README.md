@@ -23,3 +23,4 @@ Table of contents
 - [Vanilla GAN (Layer naming & Multi gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/10_GAN_LayerName_MultiGPU)
 - [InfoGAN using Least Squares loss](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/11_InfoGAN_Least_Squares_Loss)
 - [Image Style Transfer using ResNet](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/12_StyleTransfer_ResNet)
+- [Semantic Segmentation (U-Net & Fusion-Net)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/tree/master/13_Semantic_Segmentation)
