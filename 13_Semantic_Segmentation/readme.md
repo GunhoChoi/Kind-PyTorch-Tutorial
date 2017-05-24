@@ -46,5 +46,21 @@ python3 main.py --network unet --batch_size 1 --num_gpu 1
 
 ## Result
 
-under training..
+### U-net 
 
+<img src="./example/original_image_99_0.png" width="100%">
+
+<img src="./example/label_image_99_0.png" width="100%">
+
+<img src="./example/gen_image_99_0.png" width="100%">
+
+Original Image / Label Image / Generated Image
+
+### Fusion-Net
+
+
+<img src="./example/original_image_98_0.png" width="100%">
+
+<img src="./example/label_image_98_0.png" width="100%">
+
+<img src="./example/gen_image_98_0.png" width="100%">
