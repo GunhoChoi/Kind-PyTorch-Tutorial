@@ -1,3 +1,6 @@
+# Semantic Segmentation
+# Code by GunhoChoi
+
 from FusionNet import * 
 from UNet import *
 import numpy as np
