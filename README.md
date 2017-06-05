@@ -11,7 +11,7 @@ Requirements
 
 Table of contents
 --------------------------
-- [Basic Math Functions](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/01_Tensor_Basics/Math_Basics.ipynb)
+- [Pytorch Tensor Basics](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/01_Tensor_Basics/pytorch_tensor_basic.ipynb)
 - [Variable and Automatic Gradient Calculation](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/02_Variable_Autograd/Variable_Autograd.ipynb)
 - [Linear Regression Example (Loss & Optimizer)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/03_Linear_Regression/Linear_Regression.ipynb)
 - [MNIST CNN (cpu & gpu)](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/04_MNIST_CNN/MNIST_CNN.ipynb)
