@@ -9,6 +9,10 @@ Requirements
 - Numpy
 - matplotlib
 
+Optional
+--------------------------
+- visdom (https://github.com/facebookresearch/visdom)
+
 Table of contents
 --------------------------
 - [Pytorch Tensor Basics](https://github.com/GunhoChoi/Kind_PyTorch_Tutorial/blob/master/01_Tensor_Basics/pytorch_tensor_basic.ipynb)
