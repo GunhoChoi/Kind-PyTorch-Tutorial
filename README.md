@@ -8,6 +8,9 @@ Requirements
 - Pytorch (http://pytorch.org/)
 - Numpy
 - matplotlib
+
+Optional
+--------------------------
 - visdom (https://github.com/facebookresearch/visdom)
 
 Table of contents
